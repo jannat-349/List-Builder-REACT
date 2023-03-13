@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
 
-import './App.css';
-import { ListBuilder } from './list-buider/ListBuilder';
+import "./App.css";
+// import Entries from "./entries/Entries";
+import { ListBuilder } from "./list-buider/ListBuilder";
 
 function App() {
   return (
     <div className="App">
+      {/* <Entries /> */}
       <ListBuilder />
     </div>
   );
